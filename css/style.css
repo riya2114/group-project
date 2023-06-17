@@ -1,0 +1,408 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&dispaly=swap");
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+body{
+    line-height: 1.8;
+    color: #777;
+}
+.navbar-nav{
+  display: flex;
+  list-style-type: none;
+}
+.nav-item{
+    margin-top: 8px;
+    margin-left: 5px;
+}
+.nav-link{
+    text-decoration: none;
+    padding: 10px;
+    transition: all;
+    color: rgb(85, 81, 81);
+    font-family: sans-serif;
+}
+.nav-link:hover{
+     color: black;
+     background-color: #b6b1b1;
+}
+.fa-user{
+    margin-right: 15px;
+}
+.fa-house{
+    margin-right: 2px;
+}
+.fa-user-large{
+    margin-right: 4px;
+}
+.search{
+    margin-left: 810px;
+    font-size: 0.90rem;
+    color: rgb(85, 81, 81);
+    padding: 4px;
+}
+.search:hover{
+    color: white;
+    background-color: rgba(255, 0, 34, 0.911);
+    cursor: pointer;
+}
+.parallel{
+    background-image: url(https://www.w3schools.com/w3images/parallax1.jpg);
+    width: 100%;
+    height: 27rem;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.75;
+} 
+.logo{
+    margin-top: 135px;
+    border-radius: none;
+    background-color: black;
+    border: none;
+    height: 3.2rem;
+    margin-left: 440px;
+    margin-right: 418px;
+}
+.text{
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 30px;
+    font-family: sans-serif;
+    font-weight: 1px;
+    letter-spacing: 8px;
+    padding: 5px;
+}
+.head{
+    margin-left: 550px;
+    margin-top: 100px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: small;
+}
+.heading{
+    font-style: oblique;
+    font-weight: lighter;
+    margin-top: 20px;
+    margin-left: 2px;
+}
+.para{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 25px;
+    line-height: 30px;
+}
+.container{
+    margin-bottom: 80px;
+}
+.first{
+    display: flex;
+    margin-bottom: 30px;
+    height: 25rem;
+}
+.first-1{
+    width: 25.4rem;
+    height: 24rem;
+    margin-left: 200px;
+    margin-top: 40px;
+} 
+.img{
+    width: 25rem;
+    margin-top: 40px;
+    opacity: 0.72;
+} 
+.img:hover{
+    opacity: 20;
+}
+.name{
+    text-align: center;
+    font-weight: bolder;
+}
+.second-1{
+   width: 28rem;
+   height: 20rem;
+   margin-left: 40px;
+}  
+.para-1{
+    font-weight: lighter;
+    line-height: 25px;
+    width: 28rem;
+    margin-top: 40px;
+}
+.para-2{
+   margin-bottom: 30px;
+   text-align: center;
+   font-size: 1.3rem;
+   color: rgb(105, 104, 104);
+}
+.img-2{
+    margin-left: 185px;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    letter-spacing: 10px;
+    margin-bottom: 30px;
+}
+.box{
+    margin-bottom: 30px;
+    background-color: rgb(236, 231, 231);
+    margin-right: 150px;
+    margin-left: 180px;
+    padding: 1px;
+}
+.border{
+    background-color: #616161;
+    margin-right: 100px;
+    height: 2rem;
+
+}
+.border-1{
+    margin-right: 150px;
+    background-color: #616161;
+    height: 2rem;
+}
+.border-2{
+    margin-right: 240px;
+    background-color: #616161 ;
+    height: 2rem;
+}
+.percent{
+    color: white;
+    text-align: center;
+}
+.hello{
+    display: flex;
+    background-color: #4e4e4e;
+    height: 9rem;
+}
+.box-2{
+   text-align: center;
+   color: white;
+   width: 50%;
+   margin-top: 40px;
+   font-family: sans-serif;
+}
+.part{
+    margin-top: 4px;
+}
+.num{
+    font-weight: lighter;
+}
+.parallel-2{
+    background-image: url(https://www.w3schools.com/w3images/parallax2.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 27rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.port{
+    color: white;
+    letter-spacing: 5px;
+    font-family: sans-serif;
+    font-size: 2.5rem;
+    font-weight: lighter;
+}
+.space{
+    text-align: center;
+    margin-top: 80px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+.code{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 0.9rem;
+    line-height: 30px;
+    font-style: oblique;
+    font-family: sans-serif;
+}
+.grid{
+    display: flex;
+    margin-top: 35px;
+   margin-left: 120px;
+   margin-right: 120px;
+   height: 12rem;
+}
+.grid-1{
+    display: flex;
+    margin-left: 120px;
+    margin-right: 120px;
+    height: 12rem;
+}
+.photo{
+    width: 35rem;
+    margin-left: 15px;
+}
+.photo-1{
+    width: 15rem;
+    height: 11rem;
+    cursor: pointer;
+}
+.photo-1:hover{
+    opacity: 0.60;
+}
+
+.read{
+    margin-left: 580px;
+    margin-top: 45px;
+    font-size: 1rem;
+    padding: 16px 20px;
+    border: none;
+}
+.parallel-3{
+    background-image: url(https://www.w3schools.com/w3images/parallax3.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 27rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.contact{
+    color: white;
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    font-weight: lighter;
+    letter-spacing: 10px;
+}
+.new{
+    height: 40rem;
+    margin-top: 70px;
+    text-align: center;
+}
+.where{
+    font-size: 1.5rem;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+.feed{
+    margin-top: 25px;
+    font-family: sans-serif;
+    font-style: oblique;
+    font-size: 0.95rem;
+}
+.map-add{
+    display: flex;
+    margin-top: 50px;
+    height: 30rem;
+}
+.map{
+    width: 35rem;
+    margin-left: 15px;
+}
+.jpg{
+    width: 18rem;
+    height: 10rem;
+    border-radius: 4px;
+    margin-left: 150px;
+}
+.style{
+    margin-top: 5px;
+}
+.bag{
+    font-family: sans-serif;
+    font-size: 1.30rem;
+    line-height: 40px;
+}
+.cup{
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 0.92rem;
+    margin-right: 460px;
+}
+.address{
+    text-align: left;
+    margin-left: 35px;
+}
+.us{
+    margin-right: 15px;
+}
+form{
+    margin-top: 20px;
+}
+.form-2{
+    display: flex;
+    font-size: 2.3rem;
+    margin-left: 35px;
+}
+.required{
+    font-size: 2.3rem;
+}
+div input{
+   height: 3rem;
+   width: 18rem;
+}
+.email{
+    margin-left: 15px;
+    padding: 10px;
+    font-size: 0.95rem;
+    border: 1px solid rgb(182, 180, 180);
+}
+.message{
+    margin-top: 10px;
+    width: 37rem;
+    padding: 10px;
+    font-size: 0.95rem;
+    margin-right: 162px;
+    border: 1px solid rgb(182, 180, 180);
+}
+.hold{
+    font-size: 0.95rem;
+    padding: 10px;
+    border: 1px solid rgb(182, 180, 180);
+}
+.send{
+    margin-top: 20px;
+    margin-left: 272px;
+    font-size: 0.95rem;
+    height: 2.8rem;
+    width: 9.95rem;
+    color: white;
+    background-color: black;
+    border: none;
+}
+.fa-paper-plane{
+    margin-right: 4px;
+}
+.foot{
+    height: 20rem;
+    text-align: center;
+    background-color: #6e6c6c;
+}
+.foot:hover{
+    background-color: black;
+}
+.top{
+    font-size: 0.95rem;
+    height: 2.8rem;
+    width: 8rem;
+    color: rgb(102, 100, 100);
+    background-color: rgb(245, 240, 240);
+    border: none;
+    margin-top: 65px;
+}
+.top:hover{
+    opacity: 0.65;
+}
+.fa-arrow-up{
+    margin-right: 10px;
+    color: rgb(29, 27, 27);
+}
+.brands{
+    margin-top: 30px;
+    height: 10rem;
+    font-size: 1.5rem;
+    color: white;
+}
+.power{
+    margin-top: 28px;
+    font-size: 1rem;
+}
